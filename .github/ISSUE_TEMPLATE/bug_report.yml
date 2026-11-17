@@ -1,0 +1,61 @@
+name: Bug report
+description: Report a defect in ResChanger.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Check `%LOCALAPPDATA%\ResChanger\error.log` before submitting.
+  - type: input
+    id: version
+    attributes:
+      label: ResChanger version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2 x64
+    validations:
+      required: true
+  - type: textarea
+    id: display
+    attributes:
+      label: Display configuration
+      description: Number of monitors, resolutions, refresh rates, scaling.
+      placeholder: 2 monitors, 2560x1440 @ 144 Hz and 1920x1080 @ 60 Hz, 125% scaling
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Press ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste the relevant part of %LOCALAPPDATA%\ResChanger\error.log.
+      render: text
+    validations:
+      required: false
