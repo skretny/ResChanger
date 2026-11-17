@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/.NET-9.0-512BD4" alt=".NET 9">
+  <img src="https://img.shields.io/badge/.NET%20Framework-4.8-512BD4" alt=".NET Framework 4.8">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-0078D4" alt="Windows 10/11 x64">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="Лицензия MIT">
   <img src="https://img.shields.io/github/v/release/skretny/ResChanger?display_name=tag" alt="Последний релиз">
@@ -18,7 +18,7 @@
 
 [English](README.md) | **Русский**
 
-ResChanger — портативная утилита для Windows, которая меняет разрешение экрана и частоту обновления по глобальным горячим клавишам. Современная переработка **HRC — HotKey Resolution Changer 2.1** на WPF / .NET 9.
+ResChanger — портативная утилита для Windows, которая меняет разрешение экрана и частоту обновления по глобальным горячим клавишам. Современная переработка **HRC — HotKey Resolution Changer 2.1** на WPF / .NET Framework 4.8.
 
 В этом репозитории публикуется портативная сборка и документация для пользователей. Исходный код хранится отдельно.
 

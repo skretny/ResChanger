@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/.NET-9.0-512BD4" alt=".NET 9">
+  <img src="https://img.shields.io/badge/.NET%20Framework-4.8-512BD4" alt=".NET Framework 4.8">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-0078D4" alt="Windows 10/11 x64">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license">
   <img src="https://img.shields.io/github/v/release/skretny/ResChanger?display_name=tag" alt="Latest release">
@@ -18,7 +18,7 @@
 
 **English** | [Русский](README.ru.md)
 
-ResChanger is a portable Windows utility that switches display resolution and refresh rate with global hotkeys. It is a modern WPF / .NET 9 reimplementation of **HRC — HotKey Resolution Changer 2.1**.
+ResChanger is a portable Windows utility that switches display resolution and refresh rate with global hotkeys. It is a modern WPF / .NET Framework 4.8 reimplementation of **HRC — HotKey Resolution Changer 2.1**.
 
 This repository distributes the portable build and user documentation. Source code is maintained separately.
 
