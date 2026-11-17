@@ -5,6 +5,20 @@ All notable user-facing changes to ResChanger are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2026-11-17
+
+### Changed
+
+- Switched the application runtime from .NET 9 to .NET Framework 4.8, which is included in Windows 10/11. The executable is now about 270 KB instead of about 68 MB.
+- Enabled software rendering to remove GPU/D3D memory growth and keep background memory stable.
+- Removed the portable/lite split and the .NET 9 Desktop Runtime requirement.
+- Removed runtime extraction to `%TEMP%`.
+
+### Fixed
+
+- Background memory growth over time.
+- Excessive download size and memory usage.
+
 ## [1.0.1] - 2026-11-17
 
 ### Changed
@@ -43,5 +57,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Display mode changes could fail when a refresh rate was available only at a lower color depth.
 - The active-profile marker ignored the configured refresh rate.
 
+[1.0.2]: https://github.com/skretny/ResChanger/releases/tag/v1.0.2
 [1.0.1]: https://github.com/skretny/ResChanger/releases/tag/v1.0.1
 [1.0.0]: https://github.com/skretny/ResChanger/releases/tag/v1.0.0

@@ -26,20 +26,14 @@ This repository distributes the portable build and user documentation. Source co
 
 Get the latest version from [Releases](https://github.com/skretny/ResChanger/releases).
 
-| Build | File | Runtime | Notes |
-|---|---|---|---|
-| Portable | `ResChanger.exe` | none | About 68 MB. Extracts runtime files to `%TEMP%\.net\ResChanger` on first launch to keep memory lower. |
-| Lite | `ResChanger-lite.exe` | .NET 9 Desktop Runtime x64 | About 0.5 MB. Smallest download and lower memory. |
+1. Download `ResChanger.exe`.
+2. Run the executable. No installer or separate .NET runtime download is required on Windows 10/11.
+3. Verify the SHA-256 checksum from `ResChanger.exe.sha256` if needed.
+4. Enable **Start with Windows** in Settings if needed.
 
-1. Download the build you need.
-2. For the lite build, install the [.NET 9 Desktop Runtime x64](https://dotnet.microsoft.com/download/dotnet/9.0).
-3. Optionally verify the SHA-256 checksum from the matching `.sha256` file.
-4. Run the executable.
-5. Enable **Start with Windows** in Settings if needed.
+The executable is about 270 KB and uses the built-in .NET Framework 4.8. Settings are stored per user in `%LOCALAPPDATA%\ResChanger\settings.json`.
 
-Settings are stored per user in `%LOCALAPPDATA%\ResChanger\settings.json`.
-
-The builds are not code-signed, so Windows SmartScreen may show a warning on first launch.
+The build is not code-signed, so Windows SmartScreen may show a warning on first launch.
 
 ## Features
 
@@ -73,8 +67,6 @@ ResChanger.exe              normal launch
 ResChanger.exe --minimized  start in the tray (used by autostart)
 ResChanger.exe --show       force the window to show
 ```
-
-For the lite build, use `ResChanger-lite.exe` in place of `ResChanger.exe`.
 
 ## Configuration
 
