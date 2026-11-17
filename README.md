@@ -74,6 +74,8 @@ ResChanger.exe --minimized  start in the tray (used by autostart)
 ResChanger.exe --show       force the window to show
 ```
 
+For the lite build, use `ResChanger-lite.exe` in place of `ResChanger.exe`.
+
 ## Configuration
 
 ```text

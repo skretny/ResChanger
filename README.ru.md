@@ -74,6 +74,8 @@ ResChanger.exe --minimized  сразу в трей (используется а�
 ResChanger.exe --show       принудительно показать окно
 ```
 
+Для lite-сборки используйте `ResChanger-lite.exe` вместо `ResChanger.exe`.
+
 ## Конфигурация
 
 ```text
