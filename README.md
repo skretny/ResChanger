@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/.NET-9.0-512BD4" alt=".NET 9">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-0078D4" alt="Windows 10/11 x64">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license">
+  <img src="https://img.shields.io/github/v/release/skretny/ResChanger?display_name=tag" alt="Latest release">
 </p>
 
 **English** | [Русский](README.ru.md)
@@ -23,7 +24,7 @@ This repository distributes the portable build and user documentation. Source co
 
 ## Download
 
-Get the latest version from [Releases](../../releases).
+Get the latest version from [Releases](https://github.com/skretny/ResChanger/releases).
 
 1. Download `ResChanger.exe`.
 2. Optionally verify the SHA-256 checksum from `ResChanger.exe.sha256`.
@@ -91,6 +92,8 @@ Use **Settings → Data → Open folder** to open the configuration directory.
 ## Support
 
 The **Support** button at the bottom left opens **Tribute (Telegram)** and **Donatex** links.
+
+Report bugs and suggest features via [GitHub Issues](https://github.com/skretny/ResChanger/issues).
 
 ## License
 

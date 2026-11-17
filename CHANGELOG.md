@@ -31,4 +31,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Display mode changes could fail when a refresh rate was available only at a lower color depth.
 - The active-profile marker ignored the configured refresh rate.
 
-[1.0.0]: ../../releases/tag/v1.0.0
+[1.0.0]: https://github.com/skretny/ResChanger/releases/tag/v1.0.0

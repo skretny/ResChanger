@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/.NET-9.0-512BD4" alt=".NET 9">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-0078D4" alt="Windows 10/11 x64">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="Лицензия MIT">
+  <img src="https://img.shields.io/github/v/release/skretny/ResChanger?display_name=tag" alt="Последний релиз">
 </p>
 
 [English](README.md) | **Русский**
@@ -23,7 +24,7 @@ ResChanger — портативная утилита для Windows, котор�
 
 ## Скачать
 
-Актуальная версия: [Releases](../../releases).
+Актуальная версия: [Releases](https://github.com/skretny/ResChanger/releases).
 
 1. Скачайте `ResChanger.exe`.
 2. При необходимости проверьте SHA-256 по файлу `ResChanger.exe.sha256`.
@@ -91,6 +92,8 @@ ResChanger.exe --show       принудительно показать окно
 ## Поддержка
 
 Кнопка **«Поддержать»** внизу слева открывает **Tribute (Telegram)** и **Donatex**.
+
+Ошибки и предложения: [GitHub Issues](https://github.com/skretny/ResChanger/issues).
 
 ## Лицензия
 
