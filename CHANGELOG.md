@@ -5,6 +5,18 @@ All notable user-facing changes to ResChanger are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-11-17
+
+### Changed
+
+- Portable single-file build now extracts bundled runtime files on first launch. Download size stays the same, but background RAM usage is significantly lower.
+- Added a lite framework-dependent build (`ResChanger-lite.exe`, about 0.5 MB) that requires the .NET 9 Desktop Runtime x64.
+- Both builds are published in the same release with separate SHA-256 checksums.
+
+### Fixed
+
+- High background memory usage of the compressed portable build.
+
 ## [1.0.0] - 2026-11-17
 
 ### Added
@@ -31,4 +43,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Display mode changes could fail when a refresh rate was available only at a lower color depth.
 - The active-profile marker ignored the configured refresh rate.
 
+[1.0.1]: https://github.com/skretny/ResChanger/releases/tag/v1.0.1
 [1.0.0]: https://github.com/skretny/ResChanger/releases/tag/v1.0.0
