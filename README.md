@@ -16,8 +16,6 @@
   <img src="https://img.shields.io/github/v/release/skretny/ResChanger?display_name=tag" alt="Latest release">
 </p>
 
-**English** | [Русский](README.ru.md)
-
 ResChanger is a portable Windows utility that switches display resolution and refresh rate with global hotkeys. It is built with WPF / .NET Framework 4.8.
 
 This repository distributes the portable build and user documentation. Source code is maintained separately.
