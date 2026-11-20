@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <b>Portable display resolution and refresh rate switcher for Windows 10/11 x64.</b><br>
-  Switch display resolution and refresh rate from anywhere with global hotkeys.
+  <b>Portable resolution switcher for CS2 and Deadlock players.</b><br>
+  Fast Alt+Tab and clean multi-monitor behaviour at stretched or non-native resolutions.
 </p>
 
 <p align="center">
@@ -18,7 +18,41 @@
 
 ResChanger is a portable Windows utility that switches display resolution and refresh rate with global hotkeys. It is built with WPF / .NET Framework 4.8.
 
-This repository distributes the portable build and user documentation. Source code is maintained separately.
+## Why ResChanger? Fast Alt+Tab in CS2 and Deadlock without display glitches
+
+ResChanger was built for players who run **Counter-Strike 2** and **Deadlock** at a non-native or stretched resolution (4:3, 1440x1080, 1280x960, etc.) and are tired of the display problems that come with it.
+
+### The problem
+
+When a game runs at a resolution different from your desktop resolution, Alt+Tab and multi-monitor setups often misbehave:
+
+- black bars or a black strip appear on the second monitor
+- the in-game cursor is offset from the real mouse position
+- Alt+Tab is slow, or the picture breaks after returning to the game
+- the game does not stretch correctly after switching windows
+
+### How ResChanger helps
+
+Instead of letting the game change the display mode and fight with Windows, you switch the desktop resolution yourself with a global hotkey:
+
+1. Press a hotkey to switch to your gaming resolution before launching the game.
+2. Press another hotkey to return to your native resolution, so Alt+Tab, the second monitor, and your desktop behave normally.
+3. Use `Ctrl+Alt+Shift+R` at any time to restore the display modes captured at startup.
+
+This is a workaround for these display issues. The exact cause depends on your setup (GPU driver, Windows version, scaling settings, display mode in the game), so results can vary.
+
+### Made for
+
+- Counter-Strike 2 and Deadlock players using stretched or non-native resolutions
+- Dual-monitor setups where the second monitor flickers, goes black, or shows black bars
+- Anyone who wants a fast Alt+Tab and an instant resolution switch with one key press
+
+### Highlights
+
+- Up to 9 profiles with their own resolution, refresh rate, and target monitor
+- Global hotkeys that work while the window is hidden
+- Portable, about 270 KB, no installer needed
+- Tray icon, autostart, 11 languages
 
 ## Download
 
@@ -32,21 +66,6 @@ Get the latest version from [Releases](https://github.com/skretny/ResChanger/rel
 The executable is about 270 KB and uses the built-in .NET Framework 4.8. Settings are stored per user in `%LOCALAPPDATA%\ResChanger\settings.json`.
 
 The build is not code-signed, so Windows SmartScreen may show a warning on first launch.
-
-## Features
-
-- Up to 9 resolution profiles.
-- Target monitor per profile.
-- If a monitor is disconnected, the profile keeps its binding and shows a warning. After the monitor reconnects, the profile is ready to use again.
-- Resolution and refresh rate selection. **Auto** keeps the current or highest supported refresh rate.
-- Global hotkeys that work while the window is hidden.
-- In-app hotkey capture.
-- Profiles in the tray menu.
-- Restore the initial display modes captured at startup.
-- Autostart, start minimized, close to tray, notifications, theme, and hotkeys.
-- 11 languages: English, Беларуская, Čeština, Deutsch, Español, Français, हिन्दी, Italiano, Русский, Türkçe, Українська.
-- System language and system theme by default.
-- Single instance: launching the app again shows the running window.
 
 ## Hotkeys
 
@@ -98,4 +117,3 @@ Report bugs and suggest features via [GitHub Issues](https://github.com/skretny/
 MIT. Copyright (c) 2026 skretny. See [LICENSE](LICENSE).
 
 See [CHANGELOG.md](CHANGELOG.md) for version history.
-
