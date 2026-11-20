@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Portable hotkey resolution changer for Windows 10/11 x64.</b><br>
+  <b>Portable display resolution and refresh rate switcher for Windows 10/11 x64.</b><br>
   Switch display resolution and refresh rate from anywhere with global hotkeys.
 </p>
 
@@ -18,7 +18,7 @@
 
 **English** | [Русский](README.ru.md)
 
-ResChanger is a portable Windows utility that switches display resolution and refresh rate with global hotkeys. It is a modern WPF / .NET Framework 4.8 reimplementation of **HRC — HotKey Resolution Changer 2.1**.
+ResChanger is a portable Windows utility that switches display resolution and refresh rate with global hotkeys. It is built with WPF / .NET Framework 4.8.
 
 This repository distributes the portable build and user documentation. Source code is maintained separately.
 
@@ -101,6 +101,3 @@ MIT. Copyright (c) 2026 skretny. See [LICENSE](LICENSE).
 
 See [CHANGELOG.md](CHANGELOG.md) for version history.
 
-## Disclaimer
-
-ResChanger is an independent reimplementation inspired by the original HRC project. It is not affiliated with or endorsed by the original author. Rights to the original HRC name and code remain with their respective owners.
